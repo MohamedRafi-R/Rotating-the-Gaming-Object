@@ -1,3 +1,4 @@
+ 
 # Rotating-the-Gaming-Object
 
 ## Aim:
@@ -38,6 +39,25 @@ Stop
 
 ## Program:
 
+using UnityEngine;
+
+public class rafi : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.left, Vector3.up, 40*Time.deltaTime);
+    }
+}
+
 ## Output:
+<img width="1919" height="1199" alt="Screenshot 2025-08-19 203245" src="https://github.com/user-attachments/assets/644ae84f-4097-49fd-b181-58e2fe16717e" />
 
 ## Result:
+The 3D application for rotating the gaming objects in unity is executed sucessfully.
