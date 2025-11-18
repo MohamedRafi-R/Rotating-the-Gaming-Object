@@ -38,7 +38,7 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
-
+```
 using UnityEngine;
 
 public class rafi : MonoBehaviour
@@ -55,7 +55,7 @@ public class rafi : MonoBehaviour
         transform.RotateAround(Vector3.left, Vector3.up, 40*Time.deltaTime);
     }
 }
-
+```
 ## Output:
 <img width="1919" height="1199" alt="Screenshot 2025-08-19 203245" src="https://github.com/user-attachments/assets/644ae84f-4097-49fd-b181-58e2fe16717e" />
 
